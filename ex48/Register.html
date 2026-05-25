@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Jackson Electronics Registration</title>
+    </head>
+    <body style="background-color: rgb(166, 209, 255);">
+        <div style="text-align: center;"><img src="images/Jackson.gif" alt="Jackson logo"></div>
+        <h1 style="text-align:center">Registration Form</h1>
+        <h4 style="text-align:center">Register your Jackson Electronics product here</h4>
+        <form action="#" method="post">
+            <table style="margin: auto;">
+                <tr>
+                    <td>First Name:</td>
+                    <td><input type="text" name="first_name"></td>
+                    <td>Last Name:</td>
+                    <td><input type="text" name="last_name"></td>
+                </tr>
+                <tr>
+                    <td>Address #1:</td>
+                    <td colspan="3"><input type="text" name="address"></td>
+                </tr>
+                <tr>
+                    <td>Address #2:</td>
+                    <td colspan="3"><input type="text" name="address2"></td>
+                </tr>
+                <tr>
+                    <td>City:</td>
+                    <td><input type="text" name="city"></td>
+                    <td>State:</td>
+                    <td><input type="text" name="state"></td>
+                </tr>
+                <tr>
+                    <td>Zip Code:</td>
+                    <td><input type="text" name="zip_code"></td>
+                    <td>Country:</td>
+                    <td><input type="text" name="country"></td>
+                </tr>
+                <tr>
+                    <td colspan="4"><hr style="border: 1px solid black; width: 50%; margin: 16px auto;"></td>
+                </tr>
+                <tr>
+                    <td>Product:</td>
+                    <td colspan="3">
+                        <select name="product">
+                            <option value="tv">Scan Master</option>
+                            <option value="stereo">Stereo</option>
+                            <option value="laptop">Laptop</option>
+                            <option value="phone">Phone</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date Purchased:</td>
+                    <td><input type="date" name="purchase_date"></td>
+                    <td>Serial #:</td>
+                    <td><input type="text" name="serial_number"></td>
+                </tr>
+                <tr>
+                    <td>Used for:</td>
+                    <td><label><input type="radio" name="used_for" value="home"> Home</label></td>
+                    <td><label><input type="radio" name="used_for" value="education"> Education Institution</label></td>
+                    <td><label><input type="radio" name="used_for" value="business"> Business</label></td>
+                </tr>
+                <tr>
+                    <td>System (check all that apply):</td>
+                    <td><label><input type="checkbox" name="system" value="windows"> Windows</label></td>
+                    <td><label><input type="checkbox" name="system" value="unix"> Unix</label></td>
+                    <td><label><input type="checkbox" name="system" value="mac"> Macintosh</label></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><label><input type="checkbox" name="system" value="other"> Other</label></td>
+                    <td colspan="2"></td>
+                </tr>
+                <tr>
+                    <td>Comment?</td>
+                    <td colspan="3"><textarea name="comment" rows="5" cols="40"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="4" style="text-align: center; padding-top: 16px;">
+                        <input type="submit" value="Click to register">
+                        <input type="reset" value="Click to Cancel">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
