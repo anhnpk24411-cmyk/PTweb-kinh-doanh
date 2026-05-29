@@ -1,0 +1,70 @@
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <title> Tiêu đề trang </title>
+    </head>
+    <body style="background-color: green; color:white">
+        <div style="text-align:center; margin-bottom:10px;">
+            <img src="images/Logo.gif" alt="DeLong Enterprises" style="max-width:500px; width:100%; height:auto; display:block; margin:0 auto;">
+        </div>
+        <h1 style="text-align:center; margin-bottom:20px;">Newborn Registration</h1>
+        <form>
+        <table>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top; width:170px;">Date:</td>
+                <td style="padding:5px 10px;"><input type="date" name="date"></td>
+            </tr>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top;">1) Infant's first name:</td>
+                <td style="padding:5px 10px;"><input type="text" name="firstName"></td>
+                <td style="padding:5px 10px; vertical-align:top;">Last:</td>
+                <td style="padding:5px 10px;"><input type="text" name="last"></td>
+            </tr>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top;">2) Medical Record #:</td>
+                <td colspan="2"><input type="text" name="medicalRecord"></td>
+            </tr>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top;">3) Date of Birth:</td>
+                <td colspan="2"><input type="date" name="dateOfBirth"></td>
+            </tr>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top;">4) Birth weight:</td>
+                <td colspan="2"><input type="text" name="birthWeight"></td>
+            </tr>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top;">5) APGAR score:</td>
+                <td colspan="2"><input type="text" name="apgarScore"></td>
+            </tr>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top;">6) Mother's first name:</td>
+                <td style="padding:5px 10px;"><input type="text" name="motherfirstName"></td>
+                <td style="padding:5px 10px; vertical-align:top;">Last:</td>
+                <td style="padding:5px 10px;"><input type="text" name="motherlastName"></td>
+            </tr>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top;">7) Father's first name:</td>
+                <td style="padding:5px 10px;"><input type="text" name="fatherfirstName"></td>
+                <td style="padding:5px 10px; vertical-align:top;">Last:</td>
+                <td style="padding:5px 10px;"><input type="text" name="fatherlastName"></td>
+            </tr>
+            <tr>
+                <td style="padding:5px 10px; vertical-align:top;">8) Physician (check all that apply:)</td>
+                <td style="padding:5px 10px;">
+                    <select size="4"; name="physician">
+                    <option value="drwarren"> Dr: Warren Albert </option>
+                    <option value="drmaria"> Dr: Maria Alvarez </option>
+                    <option value="drkaren"> Dr: Karen Brinkman </option>
+                    <option value="drmicheal"> Dr. Micheal Kerry </option>
+                    </select>
+            </tr>
+            <tr>
+                    <td colspan="4" style="padding:5px 10px 20px; text-align:center;">
+                        <input type="submit" value="Register" style="margin-right:10px; padding:6px 12px;">
+                        <input type="reset" value="Cancel" style="margin-right:10px; padding:6px 12px;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
