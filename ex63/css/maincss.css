@@ -1,0 +1,39 @@
+body{
+    font-size: 20px;
+}
+
+#content{
+    width: 760px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+h1{
+    font-size: 42px;
+}
+
+#tblmember{
+    border-collapse: collapse;
+}
+
+#tblmember th, #tblmember td{
+    border: 1px solid black;
+}
+
+#tblmember thead{
+    background-color: blue;
+    color: white;
+}
+.blue, .red, .yellow, .green, .violet {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+.blue { background-color: blue; color: white; }
+.red { background-color: red; }
+.yellow { background-color: yellow; }
+.green { background-color: green; }
+.violet { background-color: violet; }
