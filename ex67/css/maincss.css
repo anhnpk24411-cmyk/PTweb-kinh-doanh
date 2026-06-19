@@ -1,0 +1,61 @@
+body {
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.instruction-text {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.student-table {
+    border-collapse: collapse;
+    width: 650px;
+    margin-bottom: 30px;
+}
+
+.student-table th, .student-table td {
+    border: 1px solid #7f7f7f;
+    padding: 6px 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.student-table thead .title-row th {
+    background-color: #ffd966;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.student-table thead .header-row th {
+    background-color: #385723;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.detail-table {
+    border-collapse: collapse;
+    width: 450px;
+    margin-top: 20px;
+}
+
+.detail-table th, .detail-table td {
+    border: 1px solid #7f7f7f;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.detail-table thead tr th {
+    background-color: #e2efda;
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.detail-table tbody td:first-child {
+    width: 40%;
+}

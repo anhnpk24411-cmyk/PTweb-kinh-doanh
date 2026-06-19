@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student List</title>
+    <link rel="stylesheet" href="css/maincss.css">
+    <script src="js/mainjs.js"></script>
+</head>
+<body>
+    <table class="student-table">
+        <thead>
+            <tr class="title-row">
+                <th colspan="4">List of Students</th>
+            </tr>
+            <tr class="header-row">
+                <th onclick="sortTable('id')">Student ID</th>
+                <th onclick="sortTable('name')">Student Name</th>
+                <th onclick="sortTable('birthday')">Birthday</th>
+                <th onclick="sortTable('gender')">Gender</th>
+            </tr>
+        </thead>
+        <tbody id="bodystudent"></tbody>
+    </table>
+    <br>
+    <div id="detailContainer"></div>
+
+</body>
+</html>
